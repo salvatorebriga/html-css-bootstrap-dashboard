@@ -54,7 +54,8 @@
           </nav>
     </header>
 
-    <main>
+    <main class="d-flex">
+
         <div class="d-none d-md-flex vh-100 flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 280px;">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
               <span class="fs-5">Bootstrap Dashboard</span>
@@ -105,7 +106,77 @@
                 <li><a class="dropdown-item text-danger" href="#">Esci</a></li>
               </ul>
             </div>
-          </div>
+        </div>
+
+        <div class="d-flex flex-grow-1 justify-content-center pt-4 p-3 overflow-y-scroll vh-100">
+            <div class="container-fluid p-4 bg-body-tertiary rounded m-auto px-5">
+                <div class="ec_head-price text-center">
+                    <h2 class="fw-semibold">Trova il piano perfetto per te!</h2>
+                    <p class="text-body-secondary">
+                        Scegli tra le noste opzioni di abbonamento e goditi le
+                        funzionalita' esculusive e performace migliori.
+                    </p>
+                    <p class="fw-semibold">Porta la tua esperienza al livello successivo!</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center p-4">
+                        <button type="button" class="btn btn-primary btn-lg px-4 gap-3 rounded-pill">Scopri di piu'</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4 rounded-pill">Contattaci</button>
+                    </div>
+
+                    <div class="row mb-3 text-center mt-3">
+                        <div class="col-12 col-lg-4">
+                            <div class="card mb-4 rounded-3 shadow-sm">
+                                <div class="card-header py-2">
+                                    <h4 class="my-0 fw-normal">Gratis</h4>
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mese</small></h1>
+                                    <ul class="list-unstyled mt-3 mb-4">
+                                        <li>10 utenti</li>
+                                        <li>2 GB di spazio</li>
+                                        <li>Pubblicita'</li>
+                                        <li>Supporto email</li>
+                                    </ul>
+                                    <button type="button" class="w-100 btn btn-lg btn-outline-primary">Prosegui</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                                <div class="card-header py-2 text-bg-primary border-primary">
+                                    <h4 class="my-0 fw-normal">Premium</h4>
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mese</small></h1>
+                                    <ul class="list-unstyled mt-3 mb-4">
+                                        <li>50 utenti</li>
+                                        <li>10 GB di spazio</li>
+                                        <li>Senza Pubblicita'</li>
+                                        <li>Supporto email prioritario</li>
+                                    </ul>
+                                    <button type="button" class="w-100 btn btn-lg btn-primary">Prosegui</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                        <div class="card mb-4 rounded-3 shadow-sm">
+                            <div class="card-header py-2">
+                                <h4 class="my-0 fw-normal">Enterprise</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mese</small></h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Utenti illimitati</li>
+                                    <li>Spazio illimitato</li>
+                                    <li>Senza Pubblicita'</li>
+                                    <li>Supporto via email e chat</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-primary">Prosegui</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>

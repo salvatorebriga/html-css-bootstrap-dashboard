@@ -110,116 +110,110 @@
                 </ul>
             </div>
 
-            </div>
-            <div class="d-flex flex-grow-1 justify-content-center pt-4 p-3 overflow-y-hidden vh-100">
-                <div class="container-fluid overflow-y-scroll">
-                    <div class="row">
+        </div>
+        <div class="d-flex flex-grow-1 justify-content-center pt-4 p-3 overflow-y-hidden vh-100">
+            <div class="container-fluid overflow-y-scroll">
+                <div class="row">
 
-                        <div class="col-12">
-                            <div class="div text-center">
-                                <h2>Crea nuovo prodotto</h2>
-                                <p class="px-4 fs-3 text-secondary fw-normal">
-                                    I campi contrassegnati con un asterisco (*)sono obbligatori.
-                                    Le immagini devono essere in formato PNG e non devono superare i 4 MB di dimensione
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-xl-7">
-                            <form class="text-start fw-semibold fs-5">
-                                <div class="mb-3">
-                                  <label for="nome" class="form-label">Nome</label>
-                                  <input type="text" class="form-control fs-5" id="nome" placeholder="EX: Samsung Galaxy S20" aria-describedby="nome">
-                                </div>
-                                <div class="mb-3">
-                                  <label for="price" class="form-label">Prezzo</label>
-                                  <input type="text" class="form-control fs-5" placeholder="0$" id="price">
-                                </div>
-                                <div class="mb-3">
-                                    <label class="form-label" for="marca">Marca</label>
-                                    <select class="form-select" id="marca">
-                                      <option selected>--- Seleziona ---</option>
-                                      <option value="1">Samsung</option>
-                                      <option value="2">Huawei</option>
-                                      <option value="3">Apple</option>
-                                    </select>
-                                </div>
-                                <div class="mb-3">
-                                    <textarea class="form-control fs-5" rows="7" id="floatingTextarea" placeholder="Inserisci la descrizione del prodotto, massimo 1000 caratteri"></textarea>
-                                </div>
-                                <div class="input-group mb-3">
-                                    <input type="file" class="form-control fs-5" id="inputGroupFile02">
-                                    <label class="input-group-text fs-5" for="inputGroupFile02">Immagine</label>
-                                </div>
-                                <ul class="list-group list-group-horizontal mb-3 fw-normal fs-6 text-secondary-emphasis d-flex flex-wrap">
-                                    <li class="list-group-item">Disponibile</li>
-                                    <li class="list-group-item">Esaurito</li>
-                                    <li class="list-group-item">Fuori produzione</li>
-                                    <li class="list-group-item">In Arrivo</li>
-                                </ul>
-                            </form> 
-                        </div>
-
-                        <div class="col-12 col-xl-5 pt-4 mb-3">
-                            <ul class="list-group">
-                                <li class="list-group-item">
-                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-                                    <label class="form-check-label" for="firstCheckbox">
-                                        <h6>Fotocamera principale</h6>
-                                        <p class="text-secondary">Foto di alta qualità e registrare video nitidi.</p>
-                                    </label>
-                                </li>
-                                <li class="list-group-item">
-                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
-                                    <label class="form-check-label" for="secondCheckbox">
-                                        <h6>Schermo OLED</h6>
-                                        <p class="text-secondary">Offre colori vividi per un'esperienza visiva straordinaria</p>
-                                    </label>
-                                </li>
-                                <li class="list-group-item">
-                                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
-                                    <label class="form-check-label" for="thirdCheckbox">
-                                        <h6>Processore Octa-core</h6>
-                                        <p class="text-secondary">Prestazioni fluide e veloci per eseguire le applicazioni <br> più esigenti</p>
-                                    </label>
-                                </li>
-                                <li class="list-group-item">
-                                    <input class="form-check-input me-1" type="checkbox" value="" id="fourthcheckbox">
-                                    <label class="form-check-label" for="fourthcheckbox">
-                                        <h6>Ricarica Wireless</h6>
-                                        <p class="text-secondary">Consente di ricaricare lo smartphone comodamente <br>senza l'uso di cavi</p>
-                                    </label>
-                                  </li>
-                                  <li class="list-group-item">
-                                    <input class="form-check-input me-1" type="checkbox" value="" id="fifthcheckbox">
-                                    <label class="form-check-label" for="fifthcheckbox">
-                                        <h6>Connessione 5G</h6>
-                                        <p class="text-secondary">Navigazione ultra veloce e streaming senza interruzioni</p>
-                                    </label>
-                                  </li>
-                                  <li class="list-group-item">
-                                    <input class="form-check-input me-1" type="checkbox" value="" id="sixthcheckbox">
-                                    <label class="form-check-label" for="sixthcheckbox">
-                                        <h6>Tecnologia NFC</h6>
-                                        <p class="text-secondary">Per effettuare pagamenti senza contatto</p>
-                                    </label>
-                                  </li>
-                              </ul>
-                        </div>
-
-                        <div class="col-12">
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                    <div class="col-12">
+                        <div class="div text-center">
+                            <h2>Crea nuovo prodotto</h2>
+                            <p class="px-4 fs-3 text-secondary fw-normal">
+                                I campi contrassegnati con un asterisco (*)sono obbligatori.
+                                Le immagini devono essere in formato PNG e non devono superare i 4 MB di dimensione            
+                            </p>
                         </div>
                     </div>
+
+                    <div class="col-12 col-xl-7">
+                        <form class="text-start fw-semibold fs-5">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label">Nome</label>
+                                <input type="text" class="form-control fs-5" id="nome" placeholder="EX: Samsung Galaxy S20" aria-describedby="nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="price" class="form-label">Prezzo</label>
+                                <input type="text" class="form-control fs-5" placeholder="0$" id="price">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="marca">Marca</label>
+                                <select class="form-select" id="marca">
+                                    <option selected>--- Seleziona ---</option>
+                                    <option value="1">Samsung</option>
+                                    <option value="2">Huawei</option>
+                                    <option value="3">Apple</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control fs-5" rows="7" id="floatingTextarea" placeholder="Inserisci la descrizione del prodotto, massimo 1000 caratteri"></textarea>
+                            </div>
+                            <div class="input-group mb-3">
+                                <input type="file" class="form-control fs-5" id="inputGroupFile02">
+                                <label class="input-group-text fs-5" for="inputGroupFile02">Immagine</label>
+                            </div>
+                            <ul class="list-group list-group-horizontal mb-3 fw-normal fs-6 text-secondary-emphasis d-flex flex-wrap">
+                                <li class="list-group-item">Disponibile</li>
+                                <li class="list-group-item">Esaurito</li>
+                                <li class="list-group-item">Fuori produzione</li>
+                                <li class="list-group-item">In Arrivo</li>
+                            </ul>
+                          </form> 
+                    </div>
+
+                    <div class="col-12 col-xl-5 pt-4 mb-3">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                <label class="form-check-label" for="firstCheckbox">
+                                    <h6>Fotocamera principale</h6>
+                                    <p class="text-secondary">Foto di alta qualità e registrare video nitidi.</p>
+                                </label>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                <label class="form-check-label" for="secondCheckbox">
+                                    <h6>Schermo OLED</h6>
+                                    <p class="text-secondary">Offre colori vividi per un'esperienza visiva straordinaria</p>
+                                </label>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                <label class="form-check-label" for="thirdCheckbox">
+                                    <h6>Processore Octa-core</h6>
+                                    <p class="text-secondary">Prestazioni fluide e veloci per eseguire le applicazioni <br> più esigenti</p>
+                                </label>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="fourthcheckbox">
+                                <label class="form-check-label" for="fourthcheckbox">
+                                    <h6>Ricarica Wireless</h6>
+                                    <p class="text-secondary">Consente di ricaricare lo smartphone comodamente <br>senza l'uso di cavi</p>
+                                </label>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="fifthcheckbox">
+                                <label class="form-check-label" for="fifthcheckbox">
+                                    <h6>Connessione 5G</h6>
+                                    <p class="text-secondary">Navigazione ultra veloce e streaming senza interruzioni</p>
+                                </label>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="sixthcheckbox">
+                                <label class="form-check-label" for="sixthcheckbox">
+                                    <h6>Tecnologia NFC</h6>
+                                    <p class="text-secondary">Per effettuare pagamenti senza contatto</p>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+
                 </div>
-                
-
-                
-
-                
-
-
-          </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>
