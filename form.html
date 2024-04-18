@@ -46,7 +46,7 @@
                     <a class="nav-link text-secondary fw-semibold" href="#">Profilo</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-danger fw-semibold" href="#">Esci</a>
+                    <a class="nav-link text-danger fw-semibold" href="#" data-bs-toggle="modal" data-bs-target="#logout">Esci</a>
                   </li>
                 </ul>
               </div>
@@ -106,7 +106,7 @@
                     <li><a class="dropdown-item" href="#">Impostazioni</a></li>
                     <li><a class="dropdown-item" href="#">Profilo</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item text-danger" href="#">Esci</a></li>
+                    <li><a class="dropdown-item text-danger" href="#" data-bs-toggle="modal" data-bs-target="#logout">Esci</a></li>
                 </ul>
             </div>
 
@@ -217,6 +217,23 @@
                 
             </div>
         </div>
+        <div class="modal fade" id="logout" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Uscire</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Sei sicuro di voler uscire?
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Si, esci</button>
+                  <button type="button" class="btn btn-primary">Annulla</button>
+                </div>
+              </div>
+            </div>
+          </div>
     </main>
 </body>
 </html>
