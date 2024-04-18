@@ -55,7 +55,8 @@
     </header>
 
     <main class="d-flex">
-        <div class="d-none d-md-flex vh-100 flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 280px;">
+
+      <div class="d-none d-md-flex vh-100 flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 250px;">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
               <span class="fs-5">Bootstrap Dashboard</span>
             </a>
@@ -105,12 +106,86 @@
                 <li><a class="dropdown-item text-danger" href="#">Esci</a></li>
               </ul>
             </div>
-        </div>
-        <div class="d-flex flex-grow-1 justify-content-center pt-4 p-3 overflow-y-hidden vh-100">
-            <div class="container-fluid overflow-y-scroll">
+      </div>
 
+      <div class="d-flex flex-grow-1 justify-content-center pt-4 p-3 overflow-y-hidden vh-100">
+        <div class="container-fluid overflow-y-scroll">
+          <div class="row">
+            <div class="col-10 px-3">
+              <h1>10 prodotti trovati</h1>
             </div>
+            <div class="col-2">
+              <ul class="list-group list-group-horizontal">
+                <li class="list-group-item">Esporta</li>
+                <li class="list-group-item"><a href="form.html" class="text-decoration-none text-dark">Nuovo</a></li>
+              </ul>
+            </div>
+          </div>
+          <table class="table">
+            <thead>
+              <tr>
+                    <div class="row">
+                      <th class=" col-sm-2 col-md-1">Nome</th>
+                      <th class="text-center col-xs-10 col-sm-5 col-md-7"></th>
+                      <th class="text-center d-none d-sm-table-cell col-sm-2 col-md-1">Prezzo</th>
+                      <th class="text-center col d-none d-md-table-cell col-md-1">Stato</th>
+                      <th class="text-center col-xs-1 col-sm-3 col-md-2"> Azioni</th>
+                    </div>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <div class="row">
+                  <td class="align-middle col-xs-1 col-sm-2 col-md-1"><img src="https://picsum.photos/50" alt=""></td>
+                  <td class="align-middle col-xs-10 col-sm-5 col-md-7"> 
+                    <h5>Samsung Galaxy S21</h5>
+                    <p class="d-none d-xl-block text-secondary-emphasis">Display AMOLED, fotocamera ultra wide, batteria a lunga durata</p> 
+                  </td>
+                  <td class="align-middle text-center d-none d-sm-table-cell col-sm-2 col-md-1"><h5>799$</h5></td>
+                  <td class="align-middle text-center d-none d-md-table-cell col-md-1"><button type="button" class="btn btn-outline-danger rounded-circle"><i class="fas fa-x"></i></button></td>
+                  <td class="align-middle text-center col-xs-1 col-sm-3 col-md-2">
+                    <button type="button" class="btn btn-outline-primary"><i class="fas fa-pencil"></i></button> 
+                    <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#removeproduct"><i class="fas fa-trash-can"></i></button>
+                  </td>
+                </div>
+              </tr>
+              <tr>
+                <div class="row">
+                  <td class="align-middle col-xs-1 col-sm-2 col-md-1"><img src="https://picsum.photos/50" alt=""></td>
+                  <td class="align-middle col-xs-10 col-sm-5 col-md-7"> 
+                    <h5>Samsung Galaxy S21</h5>
+                    <p class="d-none d-xl-block text-secondary-emphasis">Display AMOLED, fotocamera ultra wide, batteria a lunga durata</p> 
+                  </td>
+                  <td class="align-middle text-center d-none d-sm-table-cell col-sm-2 col-md-1"><h5>799$</h5></td>
+                  <td class="align-middle text-center d-none d-md-table-cell col-md-1"><button type="button" class="btn btn-outline-success rounded-circle"><i class="fas fa-check"></i></button></td>
+                  <td class="align-middle text-center col-xs-1 col-sm-3 col-md-2">
+                    <button type="button" class="btn btn-outline-primary"><i class="fas fa-pencil"></i></button> 
+                    <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#removeproduct"><i class="fas fa-trash-can"></i></button>
+                  </td>
+                </div>
+              </tr>
+            </tbody>
+          </table>
         </div>
+      </div>
+
+      <div class="modal fade" id="removeproduct" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Elimina prodotto</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              L'eliminazione sarà irreversibile, sei sicuro?
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Si, continua</button>
+              <button type="button" class="btn btn-primary">Annulla</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 </body>
 </html>
